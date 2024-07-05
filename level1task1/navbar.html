@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-size: cover;
+            background-color: lavenderblush;
+        }
+        nav{
+            width: 100%;
+            height: 100px;
+            line-height: 75px;
+            padding: 0px 0px;
+        
+            background-image: linear-gradient(#0f8cb3, #1b5f74);
+
+        }
+        nav .logo p{
+            font-size: 30px;
+            font-weight: bold;
+            float: left;
+            color: aliceblue;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            cursor: pointer;    
+        }
+        nav ul{
+            float: right;
+        }
+        nav li{
+            display: inline-block;
+            list-style: none;
+        }
+        nav li a{
+            font-size: 18px;
+            text-transform: uppercase;
+            padding: 0px 30px;
+            color: aliceblue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <p>navbar</p>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

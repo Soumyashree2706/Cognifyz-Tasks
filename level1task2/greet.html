@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greet Alert Box</title>
+    
+
+</head>
+<body>
+    
+    <script>
+        const currentHour = new Date().getHours();
+        if (currentHour >= 5 && currentHour < 12){
+            greetingMessage = "Good Morning";
+        }
+        else if (currentHour >= 12 && currentHour < 17){
+            greetingMessage = "Good Afternoon";
+        }
+        else {
+            greetingMessage = "Good Evening";
+        }
+
+        alert(greetingMessage);
+    </script>
+</body>
+</html> 
