@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Webpage</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(bg.jpg);
+        }
+        header{
+            font-size: 80px;
+            font-family: sans-serif;
+            background-image: linear-gradient(#359ebe, #416a9e);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        
+        .wrapper{
+            width: 100;
+        }
+        
+        .img-info h2{
+            padding: 30px 30px 20px;
+            font-family: sans-serif;
+            font-size: 50px;
+            color: #111;
+            line-height: 44px;
+            
+        }
+        .img-info p{
+            padding: 0px 30px 20px;
+            font-family: arial;
+            font-size: 16px;
+            color: #111;
+            line-height: 24px;
+        }
+        .image-pan{
+            width: 50%;
+            padding: 20px;
+            display: inline-block;
+        }
+        @media only screen and (max-width: 800px) {
+            *{
+                margin: 0;
+                padding: 0;
+            }
+           .image-pan{
+            display: block;
+            width: 100%;
+            padding-bottom: 30px;
+           }
+
+           .wrapper{
+            width: 100%;
+            margin: 0 auto;
+           }
+
+           .img-info h2{
+            padding: 20px 0px 0px;
+           }
+           .img-info p{
+            padding: 20px 0px 0px;
+           }
+
+        }
+    </style>
+</head>
+<body>
+    <header>Welcome!</header>
+   <img class="image-pan" src="panda.jpg" alt="A Panda">
+   <div class="wrapper">
+    <article class="img-info">
+        <h2>PANDA!</h2>
+        <p>The giant panda, a black-and-white bear, has a body typical of bears. It has black fur on its ears, eye patches, muzzle, legs, and shoulders. The rest of the animal's coat is white. Although scientists do not know why these unusual bears are black and white, some speculate that the bold coloring provides effective camouflage. In patches of dense bamboo, an immobile giant panda is nearly invisible, and virtually disappears among snow covered rocky outcrops on a mountain slope. This theory does not work, however, when considering that giant pandas have no natural enemies to hide from. Another thought is that the pattern may accentuate social signals in some way, or help giant pandas to identify one another from a distance so they can avoid socializing, as they are typically a solitary animal. Another theory suggests that the black absorbs heat while the white reflects it, helping giant pandas maintain an even temperature. Unfortunately, there is no one conclusive theory as to why giant pandas are black and white.</p>
+        <p>The giant panda has lived in bamboo forests for several million years. It is a highly specialized animal, with unique adaptations. The panda's thick, wooly coat keeps it warm in the cool forests of its habitat. Giant pandas have large molar teeth and strong jaw muscles for crushing tough bamboo. Many people find these chunky, lumbering animals to be cute, but giant pandas can be as dangerous as any other bear.</p>
+    </article>
+    </div>
+</body>
+</html>
